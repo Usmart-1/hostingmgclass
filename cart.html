@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <header class="head">
+    <a href="index.html">
+      <img src="Images/black-amazon-logo.png" class="amazon-logo">
+    </a>
+    <p class="checkout-text">Checkout(<a href="returns-order.html"><span>0 items</span></a>)</p>
+    <img src="Images/checkout-lock-icon.png" class="lock-icon">
+  </header>
+
+  <!-- end of header -->
+  <!-- section one -->
+
+  <section class="section-1">
+    <main class="first-main">
+      <p class="review">Review your Order</p>
+      <div class="Delivery-items"> <!--parent div-->
+
+        <p class="delivery-date">Delivery date: Tuesday, February 18</p>
+
+        <div class="delivery-goods"><!--main div with flex-->
+
+          <img src="Images/athletic-cotton-socks-6-pairs.jpg" alt="" class="ordered-good">
+
+          <div class="quantity-div"><!--For the Naming and Qunatity-->
+            <p class="quantity-name">Black and Gray Athletic Cotton <br>Socks - 6 Pairs</p>
+            <p class="quantity-price">$10.90</p>
+            <p class="quantity">Qauntity: 1 <span>Update</span> <span>Delete</span></p>
+          </div>
+
+          <div class="delivery-option"> <!--Parent div for delivery options-->
+            <p class="delivery-option-text">Choose a delivery option:</p>
+            <div><!--Peersonal div for delivery option-->
+              <input type="radio">
+              <p class="delivery-option-date">Tuesday, February 18 <br><span>Free Shipping</span></p>
+            </div>
+            <div><!--Peersonal div for delivery option-->
+              <input type="radio">
+              <p class="delivery-option-date">Tuesday, February 18 <br><span>Free Shipping</span></p>
+            </div>
+            <div><!--Peersonal div for delivery option-->
+              <input type="radio">
+              <p class="delivery-option-date">Tuesday, February 18 <br><span>Free Shipping</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- second main -->
+
+    <main class="summary-main">
+      <p class="order-summary-text">Order Summary</p>
+      <div class="summary-div">
+        <div>
+          <p>Items (3): </p>
+          <p class="summary-price">$42.75</p>
+        </div>
+
+        <div>
+          <p>Shipping & handling: </p>
+          <p class="summary-price">$4.99</p>
+        </div>
+
+        <div>
+          <p>Total before tax: </p>
+          <p class="summary-price">$47.77</p>
+        </div>
+
+        <div>
+          <p>Estimated tax: </p>
+          <p class="summary-price">$4.77</p>
+        </div>
+        <hr>
+        <div class="order-total-div">
+          <p>Order Total: </p>
+          <p class="summary-price">$52.51</p>
+        </div>
+
+        <button class="place-order">Place your order</button>
+      </div>
+    </main>
+  </section>
+</body>
+</html>
