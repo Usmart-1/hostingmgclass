@@ -14,51 +14,51 @@ function collapse(){
 
 // Add to cart
 
-let cart = 0;
-
-function add(changeObject){
-  if(changeObject === 'One'){
-    let quantity = parseFloat(document.getElementById('value').value);
-
-  cart = cart + quantity;
-
-  document.getElementById('cartDisplay').innerText = cart;
-    
-  } else if(changeObject === 'Two'){
-    let quantity = parseFloat(document.getElementById('value2').value);
-
-    cart += quantity;
-
-    document.getElementById('cartDisplay').innerText = cart;
-
-  }
-}
-document.addEventListener("DOMContentLoaded", function () {
-  let cartQuantityElement = document.getElementById("valu"); // Target cart element
-  let storedQuantity = localStorage.getItem("cartQuantityElement"); // Get stored quantity
-
-  if (storedQuantity) {
-cartQuantityElement.textContent = storedQuantity; // Set quantity from storage
-  }
-});
 
 
+let quantity = 0;
+let cartObj = '';
 
+function add(cartPerOne){
+  if(cartPerOne === 'One'){
+    let cartValu = parseFloat(document.getElementById('valu').value);
 
+    quantity = quantity + cartValu;
 
-
-
-
-// function chart(parameter){
-//   if(parameter === 'One'){
-//     console.log('parameter Is One')
-//   } 
   
-//   else if (parameter === 'Two'){
-//     console.log('The parameter Change to Two')
-//   }
-// }
+  } else if(cartPerOne === 'Two'){
+    let cartValu = parseFloat(document.getElementById('valu2').value);
 
-// let One;
+    quantity += cartValu;
+    
+  } else if(cartPerOne === 'Three'){
+    let cartValu = parseFloat(document.getElementById('valu3').value);
 
-// One = 2;  
+
+    quantity += cartValu;
+
+  } else if(cartPerOne === 'Four'){
+    let cartValu = parseFloat(document.getElementById('valu4').value);
+
+    quantity += cartValu;
+
+  } else if(cartPerOne === 'Five'){
+    let cartValu = parseFloat(document.getElementById('valu5').value);
+
+    quantity += cartValu;
+
+  } else if(cartPerOne === 'Six'){
+    let cartValu = parseFloat(document.getElementById('valu6').value);
+
+    quantity += cartValu;
+
+  }
+
+  document.getElementById('showValue').innerText = quantity;
+}
+
+
+// cart page
+
+  
+

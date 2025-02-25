@@ -45,7 +45,7 @@
             <div class="Cart-div">
                 <img src="Images/cart-icon.png" alt="" class="Cart-icon">
                 <p class="cart-txt">Cart</p>
-                <p class="cart-quantity" id="cartDisplay">0</p>
+                <p class="cart-quantity" id="showValue">0</p>
             </div>
            </a>
 
@@ -71,7 +71,7 @@
             <div class="Cart-div">
                 <img src="Images/cart-icon.png" alt="" class="Cart-icon">
                 <p class="cart-txt">Cart</p>
-                <p class="cart-quantity" id="cartDisplay">0</p>
+                <p class="cart-quantity">0</p>
             </div>
         </a>
         </div>
@@ -88,24 +88,20 @@
                 <p class="rating-denotion">87</p>
             </div>
             <p class="price">$10.90</p>
-            
-            <!-- <button onclick="chart('One')">For parameter</button>
+                <select name="" id="valu" class="Quantity-value">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
 
-            <button onclick="chart('Two')">For parameter</button> -->
-
-
-            <select id="value" class="Quantity-value">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
+                <img src="" id="oneObj">
             <div>
                 <button class="cart-btn" onclick="add('One')">Add To Cart</button>
             </div>
@@ -118,7 +114,7 @@
                 <p class="rating-denotion">87</p>
             </div>
             <p class="price">$10.90</p>
-            <select name="" id="value2" class="Quantity-value">
+            <select name="" id="valu2" class="Quantity-value">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -135,27 +131,27 @@
             </div>
         </main>
         <main class="section1-parent">
-            <img src="Images/athletic-cotton-socks-6-pairs.jpg" alt="" class="object">
+            <img src="Images/athletic-cotton-socks-6-pairs.jpg" alt="" class="object" id="object1">
             <p class="object-name">Adults Plain Cotton T-Shirt - 2 Pack</p>
             <div class="rating-div">
                 <img src="Images/rating-45.png" alt="" class="rating-img">
                 <p class="rating-denotion">87</p>
             </div>
             <p class="price">$10.90</p>
-            <select name="" id="" class="Quantity-value">
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-                <option value="">5</option>
-                <option value="">6</option>
-                <option value="">7</option>
-                <option value="">8</option>
-                <option value="">9</option>
-                <option value="">10</option>
+            <select name="" id="valu3" class="Quantity-value">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
             </select>
             <div>
-                <button class="cart-btn">Add To Cart</button>
+                <button class="cart-btn" onclick="add('Three')">Add To Cart</button>
             </div>
         </main>
         <main class="section1-parent">
@@ -166,20 +162,20 @@
                 <p class="rating-denotion">87</p>
             </div>
             <p class="price">$10.90</p>
-            <select name="" id="" class="Quantity-value">
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-                <option value="">5</option>
-                <option value="">6</option>
-                <option value="">7</option>
-                <option value="">8</option>
-                <option value="">9</option>
-                <option value="">10</option>
+            <select name="" id="valu4" class="Quantity-value">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
             </select>
             <div>
-                <button class="cart-btn">Add To Cart</button>
+                <button class="cart-btn" onclick="add('Four')">Add To Cart</button>
             </div>
         </main>
         <main class="section1-parent">
@@ -190,20 +186,20 @@
                 <p class="rating-denotion">87</p>
             </div>
             <p class="price">$10.90</p>
-            <select name="" id="" class="Quantity-value">
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-                <option value="">5</option>
-                <option value="">6</option>
-                <option value="">7</option>
-                <option value="">8</option>
-                <option value="">9</option>
-                <option value="">10</option>
+            <select name="" id="valu5" class="Quantity-value">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
             </select>
             <div>
-                <button class="cart-btn">Add To Cart</button>
+                <button class="cart-btn" onclick="add('Five')">Add To Cart</button>
             </div>
         </main>
         <main class="section1-parent">
@@ -214,23 +210,26 @@
                 <p class="rating-denotion">87</p>
             </div>
             <p class="price">$10.90</p>
-            <select name="" id="" class="Quantity-value">
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-                <option value="">5</option>
-                <option value="">6</option>
-                <option value="">7</option>
-                <option value="">8</option>
-                <option value="">9</option>
-                <option value="">10</option>
+            <select name="" id="valu6" class="Quantity-value">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
             </select>
             <div>
-                <button class="cart-btn">Add To Cart</button>
+                <button class="cart-btn" onclick="add('Six')">Add To Cart</button>
             </div>
         </main>
     </section>
+
+<!-- section two -->
+
     <section class="section-1">
         <main class="section1-parent">
             <img src="Images/athletic-cotton-socks-6-pairs.jpg" alt="" class="object">
@@ -262,7 +261,7 @@
             <div class="rating-div">
                 <img src="Images/rating-45.png" alt="" class="rating-img">
                 <p class="rating-denotion">87</p>
-            </div>  
+            </div>
             <p class="price">$10.90</p>
             <select name="" id="" class="Quantity-value">
                 <option value="">1</option>
@@ -816,4 +815,5 @@
         </main>
     </section>
 </body>
-<script src="app.js"></script></html>
+<script src="app.js"></script>
+</html>
